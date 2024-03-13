@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex justify-between items-center p-4">
         <div className="w-24">
           <details className="dropdown">
-            <summary className="m-1 btn">Menu</summary>
+            <summary className=" btn">Menu</summary>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 text-black">
               <li>
                 <a>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <h1 className="text-3xl">Keep Track</h1>
         <div className="avatar">
-          <div className="w-24 rounded-full">
+          <div className="w-10 rounded-full">
             <img
               src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
               alt="hello"
