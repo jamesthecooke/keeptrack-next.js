@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../components/Header";
 
 const MoneyOut = () => {
-  return <div>MoneyOut</div>;
+  return (
+    <>
+      <Header />
+      <div>MoneyOut</div>
+    </>
+  );
 };
 
 export default MoneyOut;
